@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul's Cyber Cafe</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <h1>Rahul's Cyber Cafe</h1>
+            <nav id="desktop-nav">
+                <a href="#services">Services</a>
+                <a href="#webdev">Web Development</a>
+                <a href="#contact">Contact</a>
+                <button id="theme-toggle" aria-label="Toggle dark mode">
+                    <i data-lucide="moon"></i>
+                </button>
+            </nav>
+            <button id="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+        <nav id="mobile-nav">
+            <a href="#services">Services</a>
+            <a href="#webdev">Web Development</a>
+            <a href="#contact">Contact</a>
+            <button id="mobile-theme-toggle">
+                <i data-lucide="moon"></i>
+                <span>Switch to Dark Mode</span>
+            </button>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Welcome to Rahul's Cyber Cafe</h2>
+            <p>Your one-stop shop for all digital services</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <!-- Service cards will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="webdev">
+        <div class="container">
+            <h2>Web Development Services</h2>
+            <div class="webdev-grid">
+                <!-- Web dev feature cards will be dynamically inserted here -->
+            </div>
+            <div class="cta-container">
+                <a href="https://wa.me/9260967689" class="cta-button" target="_blank">Message on whatsapp</a></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><i data-lucide="phone"></i> +91 1234567890</p>
+                    <p><i data-lucide="mail"></i> rahul@cybercafe.com</p>
+                    <p><i data-lucide="map-pin"></i> 123 Main Street, City, State, 12345</p>
+                </div>
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form id="contact-form">
+                        <div>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div>
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="cta-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Rahul's Cyber Cafe. All rights reserved.</p>
+            <p>Designed and developed with ❤️ by <a href="https://itzajay.live/" target="_blank">itzajay.live</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
