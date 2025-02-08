@@ -181,6 +181,14 @@ label {
     display: block;
     margin-bottom: 0.5rem;
 }
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+   
+}
 
 input, textarea {
     width: 100%;
