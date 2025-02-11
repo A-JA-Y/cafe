@@ -92,6 +92,12 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "Help with Aadhaar card demographic information updates.",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG2GOD0J3K0LPNSreDDeyUtNabfAAV7_dnzQ&s",
     },
+    {
+      icon: "smartphone",
+      title: "Pan card/Income Tax/ PF withdrawal",
+      description: "Help with Pan card/Income Tax/ PF withdrawal.",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG2GOD0J3K0LPNSreDDeyUtNabfAAV7_dnzQ&s",
+    },
   ];
 
   // Populate services
