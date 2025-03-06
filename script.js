@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const icon = isDarkMode ? "sun" : "moon";
     themeToggle.innerHTML = `<i data-lucide="${icon}"></i>`;
     mobileThemeToggle.innerHTML = `<i data-lucide="${icon}"></i><span>${
-      isDarkMode ? "" : ""
+      isDarkMode ? ":)" : ":("
     } </span>`;
     lucide.createIcons();
   }
