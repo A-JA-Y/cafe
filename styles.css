@@ -14,6 +14,7 @@
     --bg-color: #f3f4f6;
     --card-bg: #ffffff;
     --transition-speed: 0.3s;
+    --container-padding: 40px; /* increased padding variable */
 }
 
 .dark-mode {
@@ -32,20 +33,21 @@ body {
     background-color: var(--bg-color);
     transition: background-color var(--transition-speed), color var(--transition-speed);
     font-size: 1rem;
+    padding-bottom: 2rem;
 }
 
 .container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 var(--container-padding);
 }
 
 /* Header & Navigation */
 header {
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem 0;
+    padding: 1.5rem 0; /* increased vertical padding */
 }
 
 header .container {
@@ -56,7 +58,7 @@ header .container {
 
 nav a {
     color: white;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.5rem; /* increased horizontal padding */
     text-decoration: none;
     margin-left: 1rem;
     transition: color var(--transition-speed);
@@ -83,7 +85,7 @@ nav a:hover {
     background-color: var(--primary-color);
     color: white;
     text-align: center;
-    padding: 4rem 0;
+    padding: 5rem 0; /* increased vertical padding */
 }
 
 /* CTA Button */
@@ -181,18 +183,18 @@ label {
     display: block;
     margin-bottom: 0.5rem;
 }
+
 .image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     height: auto;
-   
 }
 
 input, textarea {
     width: 100%;
-    padding: 0.5rem;
+    padding: 0.75rem; /* increased padding */
     border: 1px solid #ccc;
     border-radius: 0.25rem;
     background-color: var(--bg-color);
